@@ -86,7 +86,7 @@ final class lightpress_Customize {
    */
   public function sections( $manager ) {
     // Load custom sections.
-    require_once( trailingslashit( get_template_directory() ) . 'inc/lightpress-pro.php' );
+    require_once locate_template( 'inc/lightpress-pro.php' );
     // Register custom section types.
     $manager->register_section_type( 'lightpress_Customize_Section_Pro' );
     // Register sections.
