@@ -28,11 +28,7 @@
 			<div class="pull-right"><?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?></div>
     	</div>
 	</section>
-
-
-		</footer>
-
-
+</footer>
 
 <?php wp_footer(); ?>
 
