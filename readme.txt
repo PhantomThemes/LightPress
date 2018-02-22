@@ -5,7 +5,7 @@ Tags:custom-background, theme-options, custom-menu, post-formats, threaded-comme
 
 Requires at least: 4.5
 Tested up to:  4.9.4
-Stable tag: 1.41
+Stable tag: 1.42
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,7 +60,7 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 == Changelog ==
 
-= 1.41 - February 22 2018 =
+= 1.42 - February 22 2018 =
 * CSS Code Standarized.
 
 = 1.3 - February 19 2017 =
