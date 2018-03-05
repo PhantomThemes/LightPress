@@ -20,15 +20,18 @@
 	<?php dynamic_sidebar( 'footer' ); ?>
 </div><!-- #secondary -->
 
+<!-- footer start -->
 <footer class="clearfix">
-
 	<section class="footer-info">
 		<div class="container">
-			<div class="pull-left"><?php echo __('Developed by','lightpress'); ?> <a href="http://phantomthemes.com"><?php echo __('Phantom Themes','lightpress'); ?></a> | <?php echo bloginfo(); ?> <?php echo __('All Rights Reserved.','lightpress'); ?></div>
-			<div class="pull-right"><?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?></div>
+    		<p class="float-left"><?php echo __('Developed by','lightpress'); ?> <a href="https://phantomthemes.com"><?php echo __('Phantom Themes','lightpress'); ?></a> | <?php echo bloginfo(); ?> <?php echo __('All Rights Reserved.','lightpress'); ?></p>
+			<div class=" float-lg-right float-xl-right">
+				<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?>
+			</div>
     	</div>
 	</section>
 </footer>
+<!-- footer end -->
 
 <?php wp_footer(); ?>
 

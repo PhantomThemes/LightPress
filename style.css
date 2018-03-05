@@ -4,7 +4,7 @@ Theme URI: http://phantomthemes.com/downloads/lightpress-wordpress-theme/
 Author: PhantomThemes
 Author URI: https://phantomthemes.com
 Description: LightPress is the Light WordPress Theme, Specially Designed for the Blog, LightPress is minimalist WordPress theme Best for SEO and Speed of Loading Time view detail http://phantomthemes.com/downloads/lightpress-wordpress-theme/ and Full Demo http://phantomthemes.com/view?theme=LightPress  
-Version: 1.42
+Version: 1.5.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: lightpress
@@ -36,7 +36,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 # Infinite scroll
 # Media
 	## Captions
-	## Galleries
+    ## Galleries
+# Footer
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -184,7 +185,9 @@ html {
  td, th {
      padding: 0;
 }
-/*-------------------------------------------------------------- # Typography --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Typography 
+--------------------------------------------------------------*/
  body, button, input, select, textarea {
      color: #404040;
      font-family: sans-serif;
@@ -234,7 +237,9 @@ html {
  big {
      font-size: 125%;
 }
-/*-------------------------------------------------------------- # Elements --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Elements 
+--------------------------------------------------------------*/
  html {
      box-sizing: border-box;
 }
@@ -288,7 +293,9 @@ html {
      margin: 0 0 1.5em;
      width: 100%;
 }
-/*-------------------------------------------------------------- # Forms --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Forms 
+--------------------------------------------------------------*/
  button, input[type="button"], input[type="reset"], input[type="submit"] {
      border: 1px solid;
      border-color: #ccc #ccc #bbb;
@@ -325,8 +332,12 @@ html {
      padding-left: 3px;
      width: 100%;
 }
-/*-------------------------------------------------------------- # Navigation --------------------------------------------------------------*/
-/*-------------------------------------------------------------- ## Links --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Navigation 
+--------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Links 
+--------------------------------------------------------------*/
  a {
      color: #4169E1;
 }
@@ -342,7 +353,9 @@ html {
  a:hover, a:active {
      outline: 0;
 }
-/*-------------------------------------------------------------- ## Menus --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Menus 
+--------------------------------------------------------------*/
  .main-navigation {
      clear: both;
      display: block;
@@ -420,7 +433,9 @@ html {
      text-align: right;
      width: 50%;
 }
-/*-------------------------------------------------------------- # Accessibility --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Accessibility 
+--------------------------------------------------------------*/
 /* Text meant only for screen readers. */
  .screen-reader-text {
      clip: rect(1px, 1px, 1px, 1px);
@@ -453,14 +468,16 @@ html {
  #content[tabindex="-1"]:focus {
      outline: 0;
 }
-/*-------------------------------------------------------------- # Alignments --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Alignments 
+--------------------------------------------------------------*/
  .alignleft {
-     display: inline;
+     display: block;
      float: left;
      margin-right: 1.5em;
 }
  .alignright {
-     display: inline;
+     display: block;
      float: right;
      margin-left: 1.5em;
 }
@@ -470,7 +487,9 @@ html {
      margin-left: auto;
      margin-right: auto;
 }
-/*-------------------------------------------------------------- # Clearings --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Clearings 
+--------------------------------------------------------------*/
  .clear:before, .clear:after, .entry-content:before, .entry-content:after, .comment-content:before, .comment-content:after, .site-header:before, .site-header:after, .site-content:before, .site-content:after, .site-footer:before, .site-footer:after {
      content: "";
      display: table;
@@ -479,7 +498,9 @@ html {
  .clear:after, .entry-content:after, .comment-content:after, .site-header:after, .site-content:after, .site-footer:after {
      clear: both;
 }
-/*-------------------------------------------------------------- # Widgets --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Widgets 
+--------------------------------------------------------------*/
  .widget {
      margin: 0 0 1.5em;
 }
@@ -487,8 +508,12 @@ html {
  .widget select {
      max-width: 100%;
 }
-/*-------------------------------------------------------------- # Content --------------------------------------------------------------*/
-/*-------------------------------------------------------------- ## Posts and pages --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Content 
+--------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Posts and pages 
+--------------------------------------------------------------*/
  .sticky {
      display: block;
 }
@@ -508,18 +533,24 @@ html {
      clear: both;
      margin: 0 0 1.5em;
 }
-/*-------------------------------------------------------------- ## Asides --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Asides 
+--------------------------------------------------------------*/
  .blog .format-aside .entry-title, .archive .format-aside .entry-title {
      display: none;
 }
-/*-------------------------------------------------------------- ## Comments --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Comments 
+--------------------------------------------------------------*/
  .comment-content a {
      word-wrap: break-word;
 }
  .bypostauthor {
      display: block;
 }
-/*-------------------------------------------------------------- # Infinite scroll --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Infinite scroll 
+--------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
  .infinite-scroll .posts-navigation, 
 /* Older / Newer Posts Navigation (always hidden) */
@@ -531,7 +562,9 @@ html {
  .infinity-end.neverending .site-footer {
      display: block;
 }
-/*-------------------------------------------------------------- # Media --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+# Media 
+--------------------------------------------------------------*/
  .page-content .wp-smiley, .entry-content .wp-smiley, .comment-content .wp-smiley {
      border: none;
      margin-bottom: 0;
@@ -542,7 +575,9 @@ html {
  embed, iframe, object {
      max-width: 100%;
 }
-/*-------------------------------------------------------------- ## Captions --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Captions 
+--------------------------------------------------------------*/
  .wp-caption {
      margin-bottom: 1.5em;
      max-width: 100%;
@@ -558,7 +593,9 @@ html {
  .wp-caption-text {
      text-align: center;
 }
-/*-------------------------------------------------------------- ## Galleries --------------------------------------------------------------*/
+/*-------------------------------------------------------------- 
+## Galleries 
+--------------------------------------------------------------*/
  .gallery {
      margin-bottom: 1.5em;
 }
@@ -753,7 +790,7 @@ html {
     font-size: 1.25em;
 }
  .widget-area .widget{
-    font-size: 0.8em;
+    font-size: 0.84em;
     float: left;
     width: 20%;
     padding: 30px;
@@ -773,24 +810,6 @@ html {
  .page-content{
     min-height: 300px;
 }
- footer .footer-info{
-    background: #232429;
-    padding: 30px 0;
-    color: #fff;
-    font-style: normal;
-}
- footer .footer-info ul{
-    margin: 0;
-    padding: 0;
-}
- footer .footer-info ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-}
- footer .footer-info ul ul{
-    display: none;
-}
  .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
     background-color: #2A4286;
      border-color: #2A4286;
@@ -799,6 +818,10 @@ html {
  .pagination>li>a, .pagination>li>span{
     color: #999;
 }
+
+/*-------------------------------------------------------------- 
+## Comments 
+--------------------------------------------------------------*/
  .comments-area{
     margin-top: 30px;
     border-top: 1px dotted #ccc;
@@ -842,6 +865,45 @@ html {
     font-size: 13px;
     text-shadow:none;
 }
+
+/*-------------------------------------------------------------- 
+## Footer 
+--------------------------------------------------------------*/
+
+footer .footer-info{
+    background: #232429;
+    padding:  30px 0 50px;
+    color: #fff;
+    font-style: normal;
+}
+ footer .footer-info ul{
+    margin: 0;
+    padding: 0;
+}
+ footer .footer-info ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+ footer .footer-info ul ul{
+    display: none;
+}
+footer .footer-info ul li a:hover{
+    text-decoration: underline;
+    color: #aaa;
+}
+.copyright{
+    max-width: 400px;
+}
+
+#footer {
+    background: #232429;
+    font-size: 12px;
+    color: #fff;
+    padding: 30px 0;
+}
+
+ 
  @media (max-width: 991px){
      .site-branding{
         width: 27%;
@@ -885,10 +947,6 @@ html {
     }
      .main-navigation ul ul{
         padding-left: 15px;
-    }
-     footer .footer-info .pull-right{
-        float:left !important;
-        width: 100%;
     }
      footer .footer-info ul li{
         padding: 0 15px 0 0;
