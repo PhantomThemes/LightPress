@@ -13,6 +13,8 @@
 	<div class="content-post-bg">
 	 <?php if (has_post_thumbnail()) : ?>
                 <a href="<?php the_permalink(); ?>" rel="bookmark" class="featured-image"><?php the_post_thumbnail(''); ?></a>
+                <?php elseif(get_theme_mod('default_thumbnail') != '') : ?>
+                <a href="<?php the_permalink(); ?>" rel="bookmark" class="featured-image"><img src="<?php echo esc_attr( get_theme_mod('default_thumbnail')); ?>" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" /></a>
                 <?php else : ?>
                 <a href="<?php the_permalink(); ?>" rel="bookmark" class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/images/no-blog-thumbnail.jpg" title="<?php the_title_attribute(); ?>" alt="<?php the_title_attribute(); ?>" class="img-responsive" /></a>
               <?php endif; ?>  

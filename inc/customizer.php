@@ -20,6 +20,32 @@ function lightpress_customize_register( $wp_customize ) {
 add_action( 'customize_register', 'lightpress_customize_register' );
 
 
+
+function lightpress_default_thumbnail_register($wp_customize) {
+
+    $wp_customize->add_section('default_thumbnail_section', array(
+        "title" => 'Default Post Thumbnail',
+        "description" => __('Set default post thumbnail', 'lightpress')
+    ));
+
+    $wp_customize->add_setting('default_thumbnail', array(
+        'default' => '',
+        'type' => 'theme_mod',
+        'sanitize_callback' => 'esc_url_raw',
+        'capability' => 'edit_theme_options',
+    ));
+
+    $wp_customize->add_control(
+        new WP_Customize_Image_Control($wp_customize, 'default_thumbnail', array(
+    'label' => __('Default Post Thumbnail', 'lightpress'),
+    'section' => 'default_thumbnail_section',
+    'settings' => 'default_thumbnail',
+    ))
+    );
+}
+
+add_action('customize_register', 'lightpress_default_thumbnail_register');
+
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
