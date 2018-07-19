@@ -1,11 +1,11 @@
 === lightpress ===
 
 Contributors: phantomthemes
-Tags:custom-background, theme-options, custom-menu, post-formats, threaded-comments,blog
+Tags:education, seasonal, entertainment, holiday, photography, one-column, featured-images, footer-widgets, custom-background, theme-options, custom-menu, post-formats, translation-ready, threaded-comments, blog
 
 Requires at least: 4.5
-Tested up to:  4.9.4
-Stable tag: 2.0.0
+Tested up to:  4.9.7
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,8 +60,10 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 == Changelog ==
 
-= 2.0.0 - March 5, 2018 =
+= 2.0.1 - July 19, 2018 =
+* Default Post thumbnail 
 * BootStrap 4 Migration
+* Minor CSS Fix
 
 = 1.42 - February 22 2018 =
 * CSS Code Standarized.
