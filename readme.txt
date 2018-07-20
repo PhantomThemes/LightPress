@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-LightPress is the Light WordPress Theme, Specially Designed for the Blog, LightPress is minimalist WordPress theme Best for SEO and Speed of Loading Time view detail http://phantomthemes.com/downloads/lightpress-wordpress-theme/ and Full Demo http://phantomthemes.com/view?theme=LightPress 
+LightPress is the Light WordPress Theme, Specially Designed for the Blog, LightPress is minimalist WordPress theme Best for SEO and Speed of Loading Time view detail http://phantomthemes.com/items/lightpress-wordpress-theme/ and Full Demo http://phantomthemes.com/view?theme=LightPress 
 
 == Installation ==
 	

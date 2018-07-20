@@ -97,7 +97,7 @@ final class lightpress_Customize {
         array(
           'title'    => esc_html__( 'Lightpress Pro', 'lightpress' ),
           'pro_text' => esc_html__( 'Buy Pro',         'lightpress' ),
-          'pro_url'  => 'http://phantomthemes.com/downloads/lightpress-pro-wordpress-theme/'
+          'pro_url'  => 'https://phantomthemes.com/items/lightpress-pro-wordpress-theme/'
         )
       )
     );
