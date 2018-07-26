@@ -5,7 +5,7 @@ Tags:education, seasonal, entertainment, holiday, photography, one-column, featu
 
 Requires at least: 4.5
 Tested up to:  4.9.7
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,11 +45,12 @@ GNU General Public License for more details.
 ---------------------------------------------------------------------------------------
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+* {TGM Plugin Activation} library is licensed under the GPL-2.0, https://github.com/TGMPA/TGM-Plugin-Activation/
 ---------------------------------------------------------------------------------------
 Bootstrap
-All files from the /bootstrap folder are from the Bootstrap v3.3.5 package.
+All files from the /bootstrap folder are from the Bootstrap v4.0.0 package.
 Resource URI: http://getbootstrap.com/
-Copyright: 2011-2015 Twitter, Inc
+Copyright: 2011-2018 Twitter, Inc
 Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 ---------------------------------------------------------------------------------------
 Image Credits
@@ -59,6 +60,9 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 
 == Changelog ==
+
+= 2.0.3 - July 26, 2018 =
+* TGM Plugin Activation added
 
 = 2.0.2 - July 20, 2018 =
 * Default Post thumbnail 
