@@ -5,7 +5,7 @@ Tags:education, seasonal, entertainment, holiday, photography, one-column, featu
 
 Requires at least: 4.5
 Tested up to:  4.9.7
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,12 +22,13 @@ LightPress is the Light WordPress Theme, Specially Designed for the Blog, LightP
 
 == Frequently Asked Questions ==
 
-= Does this theme support any plugins ? =
+= Does this theme support any plugins ? = 
+Yes LightPress theme supports Contact Form 7 and One Click Demo Import
 
 
 == Copyright ==
 
-Lightpress WordPress Theme, Copyright 2017 Phantomthemes
+Lightpress WordPress Theme, Copyright 2018 Phantomthemes
 Lightpress is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -61,8 +62,9 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 == Changelog ==
 
-= 2.0.3 - July 26, 2018 =
-* TGM Plugin Activation added
+= 2.0.4 - July 27, 2018 =
+* TGM Plugin Activation added.
+* One Click Demo Import plugin supported.
 
 = 2.0.2 - July 20, 2018 =
 * Default Post thumbnail 

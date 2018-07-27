@@ -239,3 +239,66 @@ if( !function_exists('lightpress_register_plugins') ) {
 		tgmpa( $plugins, $config );
 	}
 }
+
+/* LightPress Demo importer */
+add_filter( 'pt-ocdi/import_files', 'lightpress_import_demo_data' );
+if ( ! function_exists( 'lightpress_import_demo_data' ) ) {
+	function lightpress_import_demo_data() {
+	  return array(
+	    array(   
+			'import_file_name'             => __('Default Demo','lightpress'),
+			'categories'                   => array( 'Default', 'Blog' ),
+			'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo/default/demo-content.xml',
+			'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo/default/widgets.json',
+			'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo/default/customizer.dat',
+			'import_preview_image_url'     => 'https://phantomthemes.com/demo/lightpress/wp-content/themes/lightpress/screenshot.png',
+			'preview_url'                  => 'https://phantomthemes.com/view?theme=LightPress',
+		),
+	  ); 
+	}
+}
+
+
+add_action( 'pt-ocdi/after_import', 'lightpress_after_import' );
+if ( ! function_exists( 'lightpress_after_import' ) ) {
+	function lightpress_after_import( $selected_import ) { 
+		$importer_name  = __('Default Demo','lightpress');
+	 
+	    if ( $importer_name === $selected_import['import_file_name'] ) {
+	        //Set Menu
+			$top_menu = get_term_by('name', 'Primary Menu', 'nav_menu'); 
+			$footer_menu= get_term_by('name', 'Footer Menu', 'nav_menu');
+	        set_theme_mod( 'nav_menu_locations' , array( 				  
+				'primary' => $top_menu->term_id,
+				'secondary' => $footer_menu->term_id,				
+	             ) 
+	        );
+	    }
+	     
+	}
+}
+
+add_filter( 'pt-ocdi/disable_pt_branding', '__return_true' );
+
+
+
+/* Check whether the One Click Import Plugin is installed or not */
+/*
+function lightpress_is_plugin_installed($plugin_title)
+{
+    // get all the plugins
+    $installed_plugins = get_plugins();
+
+    foreach ($installed_plugins as $installed_plugin => $data) {
+
+        // check for the plugin title
+        if ($data['Title'] == $plugin_title) {
+
+            // return true if plugin is installed
+            return true;
+        }
+    }
+
+    return false;
+}
+*/
