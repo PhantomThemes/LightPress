@@ -5,7 +5,7 @@ Tags:education, seasonal, entertainment, holiday, photography, one-column, featu
 
 Requires at least: 4.5
 Tested up to:  4.9.7
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,7 +62,7 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 == Changelog ==
 
-= 2.0.4 - July 27, 2018 =
+= 2.0.5 - July 27, 2018 =
 * TGM Plugin Activation added.
 * One Click Demo Import plugin supported.
 
