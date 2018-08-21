@@ -4,8 +4,8 @@ Contributors: phantomthemes
 Tags:education, seasonal, entertainment, holiday, photography, one-column, featured-images, footer-widgets, custom-background, theme-options, custom-menu, post-formats, translation-ready, threaded-comments, blog
 
 Requires at least: 4.5
-Tested up to:  4.9.7
-Stable tag: 2.0.5
+Tested up to:  4.9.8
+Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,9 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 
 == Changelog ==
+
+= 2.0.6 - August 21, 2018 =
+* Selective Refresh widgets
 
 = 2.0.5 - July 27, 2018 =
 * TGM Plugin Activation added.

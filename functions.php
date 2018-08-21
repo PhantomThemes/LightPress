@@ -85,6 +85,12 @@ function lightpress_setup() {
 		'default-image' => '',
 			)  
 		);
+	/*
+	 * Enable support for Selective Refresh for Widgets.
+	 * See https://make.wordpress.org/core/2016/11/10/visible-edit-shortcuts-in-the-customizer-preview/
+	 */
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
 	add_editor_style() ;
 }
 endif; // lightpress_setup
