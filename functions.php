@@ -308,3 +308,11 @@ function lightpress_is_plugin_installed($plugin_title)
     return false;
 }
 */
+
+// Menu Fallback
+function lightpress_wp_nav_default_primary_menu() {
+	get_template_part( 'template-parts/default-primary-menu' );
+}
+function lightpress_wp_nav_default_secondary_menu() {
+   get_template_part( 'template-parts/default-secondary-menu' );
+}

@@ -40,7 +40,15 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'lightpress' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<?php 
+			wp_nav_menu( 	
+				array(
+				 'theme_location' => 'primary',
+				  'menu_id' => 'primary-menu',
+				  'fallback_cb' => 'lightpress_wp_nav_default_primary_menu',
+				) );
+
+			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 	<!-- <img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt=""> -->
