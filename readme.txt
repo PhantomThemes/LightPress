@@ -62,6 +62,9 @@ Image used in Screenshot  https://unsplash.com/photos/6PF6DaiWz48 , [CC0], https
 
 == Changelog ==
 
+= 2.0.8 - September 23, 2018 =
+* ReadMe For Github Support
+
 = 2.0.7 - September 4, 2018 =
 * Fallback menu added
 
